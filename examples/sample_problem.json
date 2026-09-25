@@ -1,0 +1,18 @@
+{
+  "_comment": "Tedarikçi seçimi örneği. 'weights' yerine 'comparison_matrix' vererek CLI'nin AHP ile ağırlık hesaplamasını da sağlayabilirsiniz.",
+  "criteria": ["Fiyat", "Kalite", "Teslimat Süresi", "Finansal İstikrar"],
+  "comparison_matrix": [
+    [1,   0.333, 2,   3],
+    [3,   1,     4,   5],
+    [0.5, 0.25,  1,   2],
+    [0.333, 0.2, 0.5, 1]
+  ],
+  "alternatives": ["Tedarikçi A", "Tedarikçi B", "Tedarikçi C", "Tedarikçi D"],
+  "criteria_types": ["cost", "benefit", "cost", "benefit"],
+  "decision_matrix": [
+    [250, 7, 12, 8],
+    [400, 9, 7,  9],
+    [300, 8, 9,  6],
+    [280, 6, 15, 7]
+  ]
+}
